@@ -1,0 +1,18 @@
+{
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "name": "io.github.Zelkc/beacon-notifications",
+    "title": "Beacon by Zelkc",
+    "description": "Send push notifications to iPhone, iPad, Android, Android Auto, and web browsers.",
+    "version": "1.0.0",
+    "websiteUrl": "https://beacon.zelkc.com",
+    "repository": {
+          "url": "https://github.com/zelkc/beacon-notifications",
+          "source": "github"
+    },
+    "remotes": [
+          {
+                  "type": "streamable-http",
+                  "url": "https://api.beacon.zelkc.com/mcp"
+          }
+    ]
+}
