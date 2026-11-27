@@ -16,7 +16,7 @@ Send push notifications to your phone, car dashboard, and browser from any AI as
          {
            "mcpServers": {
              "beacon": {
-               "url": "https://beacon-api.hwm-app.workers.dev/mcp",
+               "url": "https://api.beacon.zelkc.com/mcp",
                "headers": {
                  "X-Sender-Key": "YOUR_SENDER_KEY"
                }
@@ -27,7 +27,7 @@ Send push notifications to your phone, car dashboard, and browser from any AI as
 
          ### Any MCP-compatible client
 
-         - **Server URL:** `https://beacon-api.hwm-app.workers.dev/mcp`
+         - **Server URL:** `https://api.beacon.zelkc.com/mcp`
          - - **Auth:** Header `X-Sender-Key: YOUR_SENDER_KEY`
            - - **Protocol:** Streamable HTTP (JSON-RPC over HTTP with optional SSE)
             
@@ -38,7 +38,7 @@ Send push notifications to your phone, car dashboard, and browser from any AI as
              - Send a push notification to all your registered devices.
             
              - | Parameter  | Type   | Required | Description                        |
-             - |-----------|--------|----------|------------------------------------|
+             - |-----------|--------|----------|------------------------------------||
              - | title     | string | Yes      | Notification title (max 250 chars) |
              - | body      | string | Yes      | Notification body (max 1024 chars) |
              - | priority  | string | No       | quiet, low, normal, high, urgent   |
@@ -47,8 +47,8 @@ Send push notifications to your phone, car dashboard, and browser from any AI as
             
              - ## Also Available
             
-             - - **OpenAPI spec:** `https://beacon-api.hwm-app.workers.dev/openapi.json` (for ChatGPT Actions, Gemini, Copilot)
-               - - **Quick-send URL:** `https://beacon-api.hwm-app.workers.dev/v1/quick-send/YOUR_KEY?title=Hello&body=World` (for Shortcuts, Home Assistant, webhooks)
+             - - **OpenAPI spec:** `https://api.beacon.zelkc.com/openapi.json` (for ChatGPT Actions, Gemini, Copilot)
+               - - **Quick-send URL:** `https://api.beacon.zelkc.com/v1/quick-send/YOUR_KEY?title=Hello&body=World` (for Shortcuts, Home Assistant, webhooks)
                  - - **Pushover-compatible API:** Drop-in replacement for Pushover
                   
                    - ## Pricing
@@ -60,4 +60,4 @@ Send push notifications to your phone, car dashboard, and browser from any AI as
                          - ## Links
                         
                          - - Website: [beacon.zelkc.com](https://beacon.zelkc.com)
-                           - - Privacy: [beacon-api.hwm-app.workers.dev/privacy](https://beacon-api.hwm-app.workers.dev/privacy)
+                           - - Privacy: [api.beacon.zelkc.com/privacy](https://api.beacon.zelkc.com/privacy)
