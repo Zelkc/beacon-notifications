@@ -1,0 +1,12 @@
+{
+    "name": "@zelkc/beacon-mcp",
+    "mcpName": "io.github.Zelkc/beacon-notifications",
+    "version": "1.0.0",
+    "description": "Beacon by Zelkc — MCP server for sending push notifications to phones, cars, and browsers",
+    "keywords": ["mcp", "notifications", "push", "beacon", "iot", "home-assistant"],
+    "author": "Zelkc",
+    "license": "MIT",
+    "homepage": "https://beacon.zelkc.com",
+    "type": "module",
+    "files": ["server.json", "README.md"]
+}
